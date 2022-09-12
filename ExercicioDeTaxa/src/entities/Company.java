@@ -9,13 +9,9 @@ public class Company extends TaxPayer {
 		this.numberOfEmployees = numberOfEmployees;
 	}
 
-	public Integer getNumberOfEmployees() {
-		return numberOfEmployees;
-	}
+	public Integer getNumberOfEmployees() { return numberOfEmployees; }
 
-	public void setNumberOfEmployees(Integer numberOfEmployees) {
-		this.numberOfEmployees = numberOfEmployees;
-	}
+	public void setNumberOfEmployees(Integer numberOfEmployees) { this.numberOfEmployees = numberOfEmployees; }
 
 	@Override
 	public Double tax() {
