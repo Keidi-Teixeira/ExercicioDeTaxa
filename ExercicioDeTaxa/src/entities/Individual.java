@@ -9,13 +9,9 @@ public class Individual extends TaxPayer {
 		this.healthExpenditures = healthExpenditures;
 	}
 
-	public Double getHealthExpenditures() {
-		return healthExpenditures;
-	}
+	public Double getHealthExpenditures() { return healthExpenditures; }
 
-	public void setHealthExpenditures(Double healthExpenditures) {
-		this.healthExpenditures = healthExpenditures;
-	}
+	public void setHealthExpenditures(Double healthExpenditures) { this.healthExpenditures = healthExpenditures; }
 
 	@Override
 	public Double tax() {
