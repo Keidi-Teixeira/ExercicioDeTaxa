@@ -1,11 +1,9 @@
 package application;
-
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-
 import entities.Company;
 import entities.Individual;
 import entities.TaxPayer;
